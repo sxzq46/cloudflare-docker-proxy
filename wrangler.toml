@@ -8,6 +8,7 @@ local_protocol = "http"
 
 [env.vars]
 CUSTOM_DOMAIN = "flyclock.cn"
+YARN_ENABLE_IMMUTABLE_INSTALLS = false
 
 [env.dev.vars]
 MODE = "debug"
